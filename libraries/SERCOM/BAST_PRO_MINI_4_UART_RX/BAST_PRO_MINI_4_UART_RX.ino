@@ -1,3 +1,7 @@
+//Example configuration all four SERCOM as Serial port 
+// RX example
+//////////////////////////////////////////////////////////
+
 #include "wiring_private.h" // pinPeripheral() function
 Uart Serial0 (&sercom0, A2, A1, SERCOM_RX_PAD_1, UART_TX_PAD_0);
 Uart Serial2 (&sercom2, A5, A4, SERCOM_RX_PAD_1, UART_TX_PAD_0);
